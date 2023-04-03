@@ -1,4 +1,4 @@
-""" This file is an example of how Functional Programming and Object Oriented Programming Works """
+""" This file is an example of how Functional Programming and Object Oriented Programming Works """ 
 
 ## Functional Programming
 # Using map() to multiply each element in a list by 2

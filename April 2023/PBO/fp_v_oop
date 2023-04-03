@@ -1,0 +1,31 @@
+""" This file is an example of how Functional Programming and Object Oriented Programming Works """
+
+## Functional Programming
+# Using map() to multiply each element in a list by 2
+numbers = [1, 2, 3, 4, 5]
+
+def multiply_by_two(x):
+    """a function for multiplying a number by two"""
+    return x * 2
+
+doubled_numbers = list(map(multiply_by_two, numbers))
+print(doubled_numbers) # Output: [2, 4, 6, 8, 10]
+
+## Object Oriented Programming
+# Creating a Human class
+class Human:
+    """a class to make an object called Human"""
+    def __init__(self, name, age):
+        """the attributes of the 'Human' object"""
+        self.name = name
+        self.age = age
+
+    def say_hello(self):
+        """a method for the object 'Human' to print an output"""
+        print(f"Hello, my name is {self.name} and I am {self.age} years old.")
+
+# Creating a Human object
+person = Human("Ahdan", 19)
+
+# Calling the say_hello() method on the Human object
+person.say_hello() # Output: Hello, my name is Ahdan and I am 19 years old.

@@ -1,4 +1,4 @@
-# FP v OOP
+# FP v OOP 
 Functional Programming and Object Oriented Programming
 ```diff
 -Note: Text that are colored red is the Bahasa Indonesia translated text.

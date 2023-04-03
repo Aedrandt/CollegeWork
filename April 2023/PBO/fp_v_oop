@@ -11,6 +11,7 @@ def multiply_by_two(x):
 doubled_numbers = list(map(multiply_by_two, numbers))
 print(doubled_numbers) # Output: [2, 4, 6, 8, 10]
 
+
 ## Object Oriented Programming
 # Creating a Human class
 class Human:

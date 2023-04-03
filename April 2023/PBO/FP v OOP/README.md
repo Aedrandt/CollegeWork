@@ -1,7 +1,9 @@
 # FP v OOP
 Functional Programming and Object Oriented Programming
 
--Note:\ Text\ that\ are\ colored\ red\ is\ the\ Bahasa\ Indonesia\ translated\ text.
+'''diff
+-Note: Text that are colored red is the Bahasa Indonesia translated text.
+'''
 
 Functional Programming and Object Oriented Programming (OOP) are two different programming paradigms in the way they model data and behavior in a program.
 $${\color{red}Functional\ Programming\ dan\ Object\ Oriented\ Programming\ (OOP)\ adalah\ dua\ paradigma\ pemrograman\ yang\ berbeda\ dalam\ cara\ mereka\ memodelkan\ data\ dan\ perilaku\ dalam\ program.}$$

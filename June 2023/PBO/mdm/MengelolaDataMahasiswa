@@ -9,6 +9,7 @@ class Mahasiswa:
         print("NIM: ", self.nim)  # Menampilkan nilai atribut nim
         print("Jurusan: ", self.jurusan.NamaJurusan)  # Menampilkan nama jurusan dari objek jurusan yang terkait dengan mahasiswa
 
+
 class Jurusan:
     def __init__(self, nama_jurusan):
         self.NamaJurusan = nama_jurusan  # Inisialisasi atribut NamaJurusan dengan nilai yang diberikan
@@ -37,7 +38,6 @@ class Universitas:
         print("Daftar Jurusan di ", self.NamaUniversitas)
         for jurusan in self.DaftarJurusan:
             print(" - ",jurusan.NamaJurusan)  # Menampilkan nama jurusan
-
 
 
 # Membuat objek Universitas dengan nama "XYZ University"

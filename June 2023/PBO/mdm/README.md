@@ -20,6 +20,5 @@ Kelas Universitas:
 - Metode tambah_jurusan digunakan untuk menambahkan objek jurusan ke dalam daftar jurusan universitas.
 - Metode tampilkan_daftar_jurusan digunakan untuk menampilkan daftar jurusan yang ada di universitas tersebut.
 
-Dengan menggunakan tiga kelas di atas, kita dapat membuat objek Mahasiswa, Jurusan, dan Universitas, dan menghubungkannya sesuai dengan yang didefinisikan dalam kode. Misalnya, objek Mahasiswa dapat ditambahkan ke dalam objek Jurusan menggunakan metode tambah_mahasiswa, dan objek Jurusan dapat ditambahkan ke dalam objek Universitas menggunakan metode tambah_jurusan.
-
+Dengan menggunakan tiga kelas di atas, kita dapat membuat objek Mahasiswa, Jurusan, dan Universitas, dan menghubungkannya sesuai dengan yang didefinisikan dalam kode. Misalnya, objek Mahasiswa dapat ditambahkan ke dalam objek Jurusan menggunakan metode tambah_mahasiswa, dan objek Jurusan dapat ditambahkan ke dalam objek Universitas menggunakan metode tambah_jurusan. 
 Dalam tampilan akhir, kita dapat memanggil metode tampilkan_info untuk menampilkan informasi lengkap tentang seorang mahasiswa dan metode tampilkan_daftar_jurusan untuk menampilkan daftar jurusan yang ada di universitas.

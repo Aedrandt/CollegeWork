@@ -3,11 +3,11 @@
 Password Generator
 
 Program ini menggunakan library Tkinter untuk membuat antarmuka grafis yang memungkinkan pengguna untuk menghasilkan password acak dengan panjang yang ditentukan. Dalam program ini, kita menggunakan beberapa library:
-•	`random` untuk menghasilkan pilihan acak dalam pembuatan password.
-•	`string` berisi kumpulan karakter yang digunakan untuk membangun password.
-•	`tkinter` sebagai library utama untuk membuat antarmuka grafis.
-•	`messagebox` untuk menampilkan pesan kepada pengguna.
-•	`ttk` sebagai modul tambahan untuk Tkinter yang menyediakan tampilan yang lebih baik.
+- `random` untuk menghasilkan pilihan acak dalam pembuatan password.
+-	`string` berisi kumpulan karakter yang digunakan untuk membangun password.
+-	`tkinter` sebagai library utama untuk membuat antarmuka grafis.
+-	`messagebox` untuk menampilkan pesan kepada pengguna.
+-	`ttk` sebagai modul tambahan untuk Tkinter yang menyediakan tampilan yang lebih baik.
 
 Program ini terdiri dari beberapa fungsi dan langkah-langkah:
 1.	Fungsi `generate_password(length)` digunakan untuk menghasilkan password acak dengan panjang yang ditentukan. Fungsi ini memilih karakter acak dari kumpulan karakter yang telah ditentukan, dan memastikan bahwa password memenuhi persyaratan seperti memiliki huruf kecil, huruf besar, digit, dan tanda baca.

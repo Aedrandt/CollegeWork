@@ -1,5 +1,5 @@
 # PemWeb
-PemWeb stands for "Pemrogramman Web" which in english is known as Web Programming.
+PemWeb stands for "Pemrograman Web" which in english is known as Web Programming.
 
 PemWeb is one of a subject for my study.
 

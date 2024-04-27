@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="width: 300px; height: 300px; background-color: black; position: relative;">
+    <div id="gerak" style="width: 20px; height: 20px; background-color: aliceblue; 
+    margin-left: 30px; position: absolute; margin-top: 10px;"></div>
+    <div id="gerak2" style="width: 20px; height: 20px; background-color: rgb(223, 20, 20);
+    margin-left: 150px; position: absolute; margin-top: 150px;"></div>
+    </div>
+
+    <p>Score: <span id="score">0</span></p>
+    <button onclick="kanan()">kanan</button>
+    <button onclick="kiri()">kiri</button>
+    <button onclick="atas()">atas</button>
+    <button onclick="bawah()">bawah</button>
+
+    <script>
+        let score = 0;
+        let scoreElement = document.getElementById("score");
+        function tambahSkor(){
+            score++;
+            scoreElement.innerText = score; 
+        }
+        function kanan(){
+            let gerak = document.getElementById("gerak");
+            let marginleft = parseInt(gerak.style.marginLeft);
+            gerak.style.marginLeft = (marginleft+10) + "px";
+            if(marginleft==280){
+                gerak.style.marginLeft = 0 + "px"; 
+            }
+            if (objekTersentuh(gerak, document.getElementById("gerak2"))){
+                gerakAcak();
+                tambahSkor(); // Tambah skor ketika objek tersentuh  
+            }
+            if(marginleft==200){
+                gerak.style.marginLeft = 0 + "px";      
+            }  
+        }
+        function kiri(){
+            let gerak = document.getElementById("gerak");
+            let marginleft = parseInt(gerak.style.marginLeft);
+            gerak.style.marginLeft = (marginleft-10) + "px";
+            if(marginleft==0){
+                gerak.style.marginLeft = 280 + "px";
+            }
+            if (objekTersentuh(gerak, document.getElementById("gerak2"))){
+                gerakAcak();
+                tambahSkor(); // Tambah skor ketika objek tersentuh
+            }
+            if(marginleft==200){
+                gerak.style.marginLeft = 0 + "px";      
+            }
+        }
+        function atas(){
+            let gerak = document.getElementById("gerak");
+            let margintop = parseInt(gerak.style.marginTop);
+            gerak.style.marginTop = (margintop-10) + "px";
+            if(margintop==0){
+                gerak.style.marginTop = 280 + "px";
+            }
+            if (objekTersentuh(gerak, document.getElementById("gerak2"))){
+                gerakAcak();
+                tambahSkor(); // Tambah skor ketika objek tersentuh
+            }
+            if(marginleft==200){
+                gerak.style.marginLeft = 0 + "px";
+            }
+        }
+        function bawah(){
+            let gerak = document.getElementById("gerak");
+            let margintop = parseInt(gerak.style.marginTop);
+            gerak.style.marginTop = (margintop+10) + "px";
+            if(margintop==280){
+                gerak.style.marginTop = 0 + "px";
+            }
+
+            if (objekTersentuh(gerak, document.getElementById("gerak2"))){
+                gerakAcak();
+                tambahSkor(); // Tambah skor ketika objek tersentuh
+            }
+        }
+        function gerakAcak() {
+            let gerak2 = document.getElementById("gerak2");
+            gerak2.style.marginLeft = Math.floor(Math.random() * 280) + "px";
+            gerak2.style.marginTop = Math.floor(Math.random() * 280) + "px";
+        }
+        function objekTersentuh(gerak1, gerak2) {
+            let rect1 = gerak1.getBoundingClientRect();
+            let rect2 = gerak2.getBoundingClientRect();
+            return !(
+                rect1.right < rect2.left || 
+                rect1.left > rect2.right || 
+                rect1.bottom < rect2.top || 
+                rect1.top > rect2.bottom
+            );
+        }
+    </script>
+</body>
+</html>

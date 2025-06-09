@@ -19,6 +19,6 @@ Peta daerah rawan banjir ini dapat dilihat melalui file "peta_prediksi_banjir.ht
 ## Penggunaan
 Proyek ini dikembangkan dengan menggunakan Google Colab. Penggunaan ulang proyek ini dapat dilakukan mmelalui langkah berikut:
 1. Download/Copy file Model Prediksi.
-2. Unduh Dataset yang diperlukan (Terdapat di atas), kemudian extract dan simpan ke dalam Drive pribadi anda.
+2. Unduh Dataset yang diperlukan (Terdapat pada folder ini), kemudian extract dan simpan ke dalam Drive pribadi anda.
 3. Modifikasi Path/Jalur untuk mengakses dataset, sesuai dengan tempat anda menyimpannya.
 4. Jalankan sel sesuai dengan urutannya dari atas ke bawah.

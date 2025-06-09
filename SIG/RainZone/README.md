@@ -2,12 +2,12 @@
 Proyek ini melakukan analisis dan pemodelan prediksi tingkat kerawanan banjir di wilayah Kota Bengkulu. Kategori dearah terpisah menjadi sembilan kecamatan yang ada di Kota Bengkulu. Pendekatan yang dilakukan adalah dengan menggunakan Machine Learning yaitu algoritma Random Forest(RF). Algoritma RF dipilih karena sesuai dengan tipe proyek ini yang mengklasifikasikan suatu daerah (Rawan banjir atau tidak). Kemudian, dengan tahapan perata-rataan dari banyaknya pohon acak yang dibuat RF dapat mengurangi kemungkinan kesalahan prediksi.
 
 ## Data yang Digunakan
--Batas Wilayah Kecamatan di Kota Bengkulu
--Data Penggunaan/Tutupan Lahan
--Data Kelas Kemiringan Lereng
--Data Elevasi Wilayah
--Data Curah Hujan(2020-2024)
--Data Kecamatan yang Rawan Banjir
+- Batas Wilayah Kecamatan di Kota Bengkulu
+- Data Penggunaan/Tutupan Lahan
+- Data Kelas Kemiringan Lereng
+- Data Elevasi Wilayah
+- Data Curah Hujan(2020-2024)
+- Data Kecamatan yang Rawan Banjir
 
 ## Model Prediksi
 Model dari proyek ini dapat didownload pada file di atas dengan nama "SIG_RainZone.ipynb".

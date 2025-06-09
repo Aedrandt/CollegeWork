@@ -10,11 +10,11 @@ Proyek ini melakukan analisis dan pemodelan prediksi tingkat kerawanan banjir di
 - Data Kecamatan yang Rawan Banjir
 
 ## Model Prediksi
-Model dari proyek ini dapat didownload pada file di atas dengan nama "SIG_RainZone.ipynb".
+Model dari proyek ini dapat didownload pada file dengan nama "SIG_RainZone.ipynb".
 Atau dengan mengakses Google Colab berikut: https://colab.research.google.com/drive/17-B5rcm8vaw2zkTDP0UZhzAhBxgJdZTd?usp=sharing
 
 ## Peta Daerah Rawan Banjir di Kota Bengkulu
-Peta daerah rawan banjir ini dapat dilihat melalui file "peta_prediksi_banjir.html" di atas.
+Peta daerah rawan banjir ini dapat dilihat melalui file "peta_prediksi_banjir.html".
 
 ## Penggunaan
 Proyek ini dikembangkan dengan menggunakan Google Colab. Penggunaan ulang proyek ini dapat dilakukan mmelalui langkah berikut:

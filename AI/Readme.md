@@ -1,6 +1,6 @@
-# AI
-AI stands for "Artificial Intelligence".
+# ML
+ML stands for "Machine Learning".
 
-AI is one of the subject for my study.
+ML is one of the subject for my study.
 
-In this folder you'll find all the assignment that was given to me regarding the subject of AI, Machine Learning, and other subjects that are related to the two.
+In this folder you'll find all the assignment that was given to me regarding the subject of Machine Learning, AI, and other subjects that are related to the two.
